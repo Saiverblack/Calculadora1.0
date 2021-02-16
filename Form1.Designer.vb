@@ -41,6 +41,7 @@ Partial Class Form1
         Me.txtpantalla = New System.Windows.Forms.TextBox()
         Me.btndivision = New System.Windows.Forms.Button()
         Me.btnatras = New System.Windows.Forms.Button()
+        Me.txtRef = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'btncero
@@ -50,7 +51,7 @@ Partial Class Form1
         Me.btncero.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btncero.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btncero.ForeColor = System.Drawing.Color.White
-        Me.btncero.Location = New System.Drawing.Point(12, 279)
+        Me.btncero.Location = New System.Drawing.Point(12, 307)
         Me.btncero.Name = "btncero"
         Me.btncero.Size = New System.Drawing.Size(126, 40)
         Me.btncero.TabIndex = 1
@@ -64,7 +65,7 @@ Partial Class Form1
         Me.btnpunto.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnpunto.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnpunto.ForeColor = System.Drawing.Color.White
-        Me.btnpunto.Location = New System.Drawing.Point(144, 279)
+        Me.btnpunto.Location = New System.Drawing.Point(144, 307)
         Me.btnpunto.Name = "btnpunto"
         Me.btnpunto.Size = New System.Drawing.Size(60, 40)
         Me.btnpunto.TabIndex = 2
@@ -78,7 +79,7 @@ Partial Class Form1
         Me.btnigual.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnigual.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnigual.ForeColor = System.Drawing.Color.White
-        Me.btnigual.Location = New System.Drawing.Point(210, 233)
+        Me.btnigual.Location = New System.Drawing.Point(210, 261)
         Me.btnigual.Name = "btnigual"
         Me.btnigual.Size = New System.Drawing.Size(60, 86)
         Me.btnigual.TabIndex = 3
@@ -92,7 +93,7 @@ Partial Class Form1
         Me.btnsuma.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnsuma.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnsuma.ForeColor = System.Drawing.Color.White
-        Me.btnsuma.Location = New System.Drawing.Point(210, 187)
+        Me.btnsuma.Location = New System.Drawing.Point(210, 215)
         Me.btnsuma.Name = "btnsuma"
         Me.btnsuma.Size = New System.Drawing.Size(60, 40)
         Me.btnsuma.TabIndex = 7
@@ -106,7 +107,7 @@ Partial Class Form1
         Me.btntres.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btntres.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btntres.ForeColor = System.Drawing.Color.White
-        Me.btntres.Location = New System.Drawing.Point(144, 233)
+        Me.btntres.Location = New System.Drawing.Point(144, 261)
         Me.btntres.Name = "btntres"
         Me.btntres.Size = New System.Drawing.Size(60, 40)
         Me.btntres.TabIndex = 6
@@ -120,7 +121,7 @@ Partial Class Form1
         Me.btndos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btndos.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btndos.ForeColor = System.Drawing.Color.White
-        Me.btndos.Location = New System.Drawing.Point(78, 233)
+        Me.btndos.Location = New System.Drawing.Point(78, 261)
         Me.btndos.Name = "btndos"
         Me.btndos.Size = New System.Drawing.Size(60, 40)
         Me.btndos.TabIndex = 5
@@ -134,7 +135,7 @@ Partial Class Form1
         Me.btnuno.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnuno.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnuno.ForeColor = System.Drawing.Color.White
-        Me.btnuno.Location = New System.Drawing.Point(12, 233)
+        Me.btnuno.Location = New System.Drawing.Point(12, 261)
         Me.btnuno.Name = "btnuno"
         Me.btnuno.Size = New System.Drawing.Size(60, 40)
         Me.btnuno.TabIndex = 4
@@ -148,7 +149,7 @@ Partial Class Form1
         Me.btnmenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnmenos.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnmenos.ForeColor = System.Drawing.Color.White
-        Me.btnmenos.Location = New System.Drawing.Point(211, 141)
+        Me.btnmenos.Location = New System.Drawing.Point(211, 169)
         Me.btnmenos.Name = "btnmenos"
         Me.btnmenos.Size = New System.Drawing.Size(60, 40)
         Me.btnmenos.TabIndex = 11
@@ -162,7 +163,7 @@ Partial Class Form1
         Me.btnseis.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnseis.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnseis.ForeColor = System.Drawing.Color.White
-        Me.btnseis.Location = New System.Drawing.Point(144, 187)
+        Me.btnseis.Location = New System.Drawing.Point(144, 215)
         Me.btnseis.Name = "btnseis"
         Me.btnseis.Size = New System.Drawing.Size(60, 40)
         Me.btnseis.TabIndex = 10
@@ -176,7 +177,7 @@ Partial Class Form1
         Me.btncinco.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btncinco.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btncinco.ForeColor = System.Drawing.Color.White
-        Me.btncinco.Location = New System.Drawing.Point(78, 187)
+        Me.btncinco.Location = New System.Drawing.Point(78, 215)
         Me.btncinco.Name = "btncinco"
         Me.btncinco.Size = New System.Drawing.Size(60, 40)
         Me.btncinco.TabIndex = 9
@@ -190,7 +191,7 @@ Partial Class Form1
         Me.btncuatro.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btncuatro.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btncuatro.ForeColor = System.Drawing.Color.White
-        Me.btncuatro.Location = New System.Drawing.Point(12, 187)
+        Me.btncuatro.Location = New System.Drawing.Point(12, 215)
         Me.btncuatro.Name = "btncuatro"
         Me.btncuatro.Size = New System.Drawing.Size(60, 40)
         Me.btncuatro.TabIndex = 8
@@ -204,7 +205,7 @@ Partial Class Form1
         Me.btnmultiplicacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnmultiplicacion.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnmultiplicacion.ForeColor = System.Drawing.Color.White
-        Me.btnmultiplicacion.Location = New System.Drawing.Point(210, 95)
+        Me.btnmultiplicacion.Location = New System.Drawing.Point(210, 123)
         Me.btnmultiplicacion.Name = "btnmultiplicacion"
         Me.btnmultiplicacion.Size = New System.Drawing.Size(60, 40)
         Me.btnmultiplicacion.TabIndex = 15
@@ -218,7 +219,7 @@ Partial Class Form1
         Me.btnnueve.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnnueve.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnnueve.ForeColor = System.Drawing.Color.White
-        Me.btnnueve.Location = New System.Drawing.Point(144, 141)
+        Me.btnnueve.Location = New System.Drawing.Point(144, 169)
         Me.btnnueve.Name = "btnnueve"
         Me.btnnueve.Size = New System.Drawing.Size(60, 40)
         Me.btnnueve.TabIndex = 14
@@ -232,7 +233,7 @@ Partial Class Form1
         Me.btnocho.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnocho.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnocho.ForeColor = System.Drawing.Color.White
-        Me.btnocho.Location = New System.Drawing.Point(78, 141)
+        Me.btnocho.Location = New System.Drawing.Point(78, 169)
         Me.btnocho.Name = "btnocho"
         Me.btnocho.Size = New System.Drawing.Size(60, 40)
         Me.btnocho.TabIndex = 13
@@ -246,7 +247,7 @@ Partial Class Form1
         Me.btnsiete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnsiete.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnsiete.ForeColor = System.Drawing.Color.White
-        Me.btnsiete.Location = New System.Drawing.Point(12, 141)
+        Me.btnsiete.Location = New System.Drawing.Point(12, 169)
         Me.btnsiete.Name = "btnsiete"
         Me.btnsiete.Size = New System.Drawing.Size(60, 40)
         Me.btnsiete.TabIndex = 12
@@ -260,7 +261,7 @@ Partial Class Form1
         Me.btnclear.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnclear.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnclear.ForeColor = System.Drawing.Color.White
-        Me.btnclear.Location = New System.Drawing.Point(12, 95)
+        Me.btnclear.Location = New System.Drawing.Point(12, 123)
         Me.btnclear.Name = "btnclear"
         Me.btnclear.Size = New System.Drawing.Size(60, 40)
         Me.btnclear.TabIndex = 17
@@ -270,11 +271,12 @@ Partial Class Form1
         'txtpantalla
         '
         Me.txtpantalla.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtpantalla.Location = New System.Drawing.Point(12, 12)
+        Me.txtpantalla.Location = New System.Drawing.Point(13, 60)
         Me.txtpantalla.Multiline = True
         Me.txtpantalla.Name = "txtpantalla"
-        Me.txtpantalla.Size = New System.Drawing.Size(258, 68)
+        Me.txtpantalla.Size = New System.Drawing.Size(258, 42)
         Me.txtpantalla.TabIndex = 34
+        Me.txtpantalla.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'btndivision
         '
@@ -283,7 +285,7 @@ Partial Class Form1
         Me.btndivision.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btndivision.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btndivision.ForeColor = System.Drawing.Color.White
-        Me.btndivision.Location = New System.Drawing.Point(144, 95)
+        Me.btndivision.Location = New System.Drawing.Point(144, 123)
         Me.btndivision.Name = "btndivision"
         Me.btndivision.Size = New System.Drawing.Size(60, 40)
         Me.btndivision.TabIndex = 35
@@ -297,19 +299,30 @@ Partial Class Form1
         Me.btnatras.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnatras.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnatras.ForeColor = System.Drawing.Color.White
-        Me.btnatras.Location = New System.Drawing.Point(78, 95)
+        Me.btnatras.Location = New System.Drawing.Point(78, 123)
         Me.btnatras.Name = "btnatras"
         Me.btnatras.Size = New System.Drawing.Size(60, 40)
         Me.btnatras.TabIndex = 36
         Me.btnatras.Text = "<-"
         Me.btnatras.UseVisualStyleBackColor = False
         '
+        'txtRef
+        '
+        Me.txtRef.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRef.Location = New System.Drawing.Point(13, 12)
+        Me.txtRef.Multiline = True
+        Me.txtRef.Name = "txtRef"
+        Me.txtRef.Size = New System.Drawing.Size(258, 42)
+        Me.txtRef.TabIndex = 37
+        Me.txtRef.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.ClientSize = New System.Drawing.Size(283, 332)
+        Me.ClientSize = New System.Drawing.Size(283, 353)
+        Me.Controls.Add(Me.txtRef)
         Me.Controls.Add(Me.btnatras)
         Me.Controls.Add(Me.btndivision)
         Me.Controls.Add(Me.txtpantalla)
@@ -355,4 +368,5 @@ Partial Class Form1
     Friend WithEvents txtpantalla As TextBox
     Friend WithEvents btndivision As Button
     Friend WithEvents btnatras As Button
+    Friend WithEvents txtRef As TextBox
 End Class
